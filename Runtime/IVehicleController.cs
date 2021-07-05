@@ -6,5 +6,7 @@
     float handbrakeInput { get; set; }
     int turnInput { get; set; }
 
+    bool Reverse { get; set; }
+
     float GetForwardVelocity();
 }
